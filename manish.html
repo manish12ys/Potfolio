@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>manish12ys</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Theme toggle button -->
+  <button class="theme-toggle" id="themeToggle" title="Toggle dark/light mode">
+    <span class="icon" id="themeIcon">🌙</span>
+    <span id="themeText">Dark</span>
+  </button>
+
+  <!-- Main container for the resume layout -->
+  <div class="container">
+    <!-- Left column: Profile image and quick info -->
+    <div class="left">
+      <img src="72219a24-89dc-4598-b644-203e4bfd4dc7.jpg" alt="Profile" class="profile-img">
+      <!-- Platforms section -->
+      <div class="section">
+        <div class="section-title"><span class="keyword">class</span> <span class="keyword">PLATFORMS</span>(<span class="keyword">Enum</span>):</div>
+        <pre class="code-block">    Windows = <span class="string">"Windows"</span>
+    Linux = <span class="string">"Linux"</span></pre>
+      </div>
+      <!-- Languages section -->
+      <div class="section">
+        <div class="section-title"><span class="keyword">class</span> <span class="keyword">LANGUAGES</span>(<span class="keyword">Enum</span>):</div>
+        <pre class="code-block">    C = <span class="string">"C"</span>
+    Python = <span class="string">"Python"</span>
+    HTML5 = <span class="string">"HTML5"</span>
+    CSS = <span class="string">"CSS"</span>
+    JavaScript = <span class="string">"JavaScript"</span>
+    PHP = <span class="string">"PHP"</span>
+    MySQL = <span class="string">"MySQL"</span>
+    MongoDB = <span class="string">"MongoDB"</span></pre>
+      </div>
+      <!-- Software section -->
+      <div class="section">
+        <div class="section-title"><span class="keyword">class</span> <span class="keyword">SOFTWARE</span>(<span class="keyword">Enum</span>):</div>
+        <pre class="code-block">    VisualStudio = <span class="string">"VisualStudio"</span>
+    Jetbrains = <span class="string">"Jetbrains"</span></pre>
+      </div>
+      <!-- Languages Spoken section -->
+      <div class="section">
+        <div class="section-title"><span class="keyword">class</span> <span class="keyword">LANGUAGES_SPOKEN</span>(<span class="keyword">Enum</span>):</div>
+        <pre class="code-block">    # Native (Telugu)
+    TELUGU = <span class="string">"C1"</span>
+    # Fluent (English)
+    ENGLISH = <span class="string">"B2"</span>
+      </div>
+    </div> <!-- end left -->
+    <!-- Right column: Main content -->
+    <div class="right">
+      <!-- Objective section -->
+      <div class="section">
+        <div class="section-title"><span class="keyword">class</span> <span class="keyword">OBJECTIVE</span>:</div>
+        <pre class="code-block comment">"""
+        Seeking a Web & AI Development Internship 
+        Proficient in Python, JavaScript, and modern AI tools & frameworks.
+"""</pre>
+      </div>
+      <!-- Information section -->
+      <div class="section">
+        <div class="section-title"><span class="keyword">class</span> <span class="keyword">INFORMATION</span>:</div>
+        <pre class="code-block">    NAME = <span class="string">"Manish Yepuri"</span>
+    TITLE = <span class="string">"Student"</span>
+    EMAIL = <span class="string">"manishchowdary2006@gmail.com"</span>
+    PHONE = <span class="string">"9392811266"</span>
+    LOCATION = [<span class="string">"Nellipaka"</span>, <span class="string">"507129"</span>, <span class="string">"Alluri Sitharama Raju District"</span>, <span class="string">"Andhra Pradesh"</span>]
+    AGE = <span class="number">18</span></pre>
+      </div>
+      <!-- Education section -->
+      <div class="section">
+        <div class="section-title"><span class="keyword">class</span> <span class="keyword">EDUCATION</span>(<span class="keyword">HigherEducation</span>):</div>
+        <pre class="code-block">    <span class="keyword">def</span> ICAN(<span class="keyword">self</span>, _Diplomas):
+        _Level = <span class="string">"Bachelor"</span>
+        _Date = <span class="string">"start: October 2023, end: December 2026"</span>
+        _Type = <span class="string">"Computer Science and Engineering"</span>
+        _Diplomas = [<span class="string">"B.Tech"</span>, <span class="string">"CSE-Ai"</span>]
+        _Obtained = <span class="string">"still in progress"</span></pre>
+      </div>
+      <!-- Projects section -->
+      <div class="section">
+        <div class="section-title"><span class="keyword">class</span> <span class="keyword">PROJECTS</span>:</div>
+        <pre class="code-block">    <span class="keyword">def</span> Project1(<span class="keyword">self</span>):
+        _Name = <span class="string">"Neuro-urban"</span>
+        _Description = <span class="string">"Neuro-urban is an AI-driven system that analyzes successful
+           global cities using ML/DL to identify key urban patterns.
+          It generates optimal, sustainable city blueprints tailored to geography, population, and climate.
+          Ideal for planners and governments aiming to design smart, livable cities.
+          "</span>
+        _Technologies = [<span class="string">"Python"</span>, <span class="string">"Streamlit"</span>]
+        _Link = <a class="link" href="https://neuro-urban.streamlit.app/">"https://neuro-urban.streamlit.app/"</a>
+    
+    <span class="keyword">def</span> Project2(<span class="keyword">self</span>):
+        _Name = <span class="string">"EdgeRoute"</span>
+        _Description = <span class="string">"EdgeRoute is a Flask-based web app offering interactive learning roadmaps across tech domains.
+          Users can track progress, engage in discussions, and personalize their learning journey.
+          It's designed to guide learners step-by-step toward their career goals.
+          "</span>
+        _Technologies = [<span class="string">"HTML"</span>, <span class="string">"CSS"</span>,<span class="string">"python"</span>,<span class="string">"JavaScript"</span>]
+        _Link = <a class="link" href="https://github.com/manish12ys/EdgeRoute">"https://github.com/manish12ys/EdgeRoute"</a></pre>
+      </div>
+      <!-- Media/social links section -->
+      <div class="section">
+        <div class="section-title"><span class="keyword">class</span> <span class="keyword">MEDIA</span>(<span class="keyword">Enum</span>):</div>
+        <pre class="code-block">    twitter = <span class="string">"twitter"</span>
+     <a class="link" href="https://x.com/yepuri_manish">/x.com/manish12ys</a>
+     LinkedIn = <span class="string">"LinkedIn"</span>
+     <a class="link" href="https://www.linkedin.com/in/manish-yepuri-471940281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">/in/manish-yepuri</a>
+     GitHub = <span class="string">"GitHub"</span>
+     <a class="link" href="https://github.com/manish12ys">/github.com/manish12ys</a></pre>
+      </div>
+    </div> <!-- end right -->
+  </div> <!-- end container -->
+
+  <!-- JavaScript for theme toggle -->
+  <script src="theme.js"></script>
+</body>
+</html>
